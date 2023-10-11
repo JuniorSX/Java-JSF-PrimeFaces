@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+*{
+	border:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	font-weight: normal;
+
+}
+
+header {
+	padding: 5px 5px 3px;
+	margin-bottom: 20px;
+	background-color: #f8f9fa;
+	color: #fff;
+	box-shadow: 0 2px 2px #ccc
+}
+h2{
+	color:#005caa;
+}
+.logo-topo{
+	margin-left:1rem;
+	height: 50px;
+}
+.linkedin-footer{
+	width: 30px;
+}
+
+#conteudo {
+	padding: 0 15px;
+	min-height: calc(100vh - 259px);
+}
+
+footer {
+	padding: 5px 5px 3px;
+	margin-top: 20px;
+	background-color: #005caa;
+	color: #fff;
+	height: 100px;
+	text-align: center;
+	font-size: 1rem;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 500;
+	padding: 0;
+	margin-bottom: 10px;
+}
